@@ -16,10 +16,6 @@ class Model:
 
 	 def cross_val_train(self, X, y):
                 self.acc = 0
-                for X_train, X_test, y_train, y_test in cross_val(X, y):
-                        self.fit(X_train, y_train)
-                        self.pred = self.predict(X_test, y_test)
-                        self.acc += self.accuracy(self.pred, y_test)
                 return self.acc
 	
 	def test_model(self, X_test, y_test):
