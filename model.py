@@ -6,9 +6,8 @@ class Model:
 	 def fit(self, X_train, y_treain):
                 self.fit(X_train, y_train)
 
-	def predict(self, X, y);
-		self.pred = self.prediction(X)
-		return self.pred  	
+	def predict(self, X);
+		pass	
 
 
 	def cross_val_split(self, X, y):
