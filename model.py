@@ -6,7 +6,7 @@ class Model:
 	 def fit(self, X_train, y_treain):
                 self.fit(X_train, y_train)
 
-	def predict(self, X, y);
+	def predict(self, X);
 		pass	
 
 
