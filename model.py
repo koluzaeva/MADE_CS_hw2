@@ -9,5 +9,9 @@ class Model:
         def predict(self, X_test):
                 self.predict = self.model.predict(X_test)
                 return self.pred
+	def cross_val_split(self, X, y):
+                pass
+
+
 
 
