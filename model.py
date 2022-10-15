@@ -20,5 +20,7 @@ class Model:
                         self.pred = self.predict(X_test, y_test)
                         self.acc += self.accuracy(self.pred, y_test)
                 return self.acc
-
+	
+	def test_model(self, X_test, y_test):
+		pass 
 
