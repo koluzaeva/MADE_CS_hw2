@@ -24,3 +24,5 @@ class Model:
 	def test_model(self, X_test, y_test):
 		pass 
 
+	def accuracy(self, X, y):
+		pass
