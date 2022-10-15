@@ -7,7 +7,8 @@ class Model:
                 self.fit(X_train, y_train)
 
 	def predict(self, X, y);
-		pass	
+		self.pred = self.prediction(X)
+		return self.pred  	
 
 
 	def cross_val_split(self, X, y):
